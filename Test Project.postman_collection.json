@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "58a2c44a-7b56-4fd1-9a78-39f58532d271",
+		"name": "Test Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13097522"
+	},
+	"item": [
+		{
+			"name": "Get Project Types",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7148/api/ProjectTypes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7148",
+					"path": [
+						"api",
+						"ProjectTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create ProjectTypes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"mohamed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7148/api/ProjectTypes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7148",
+					"path": [
+						"api",
+						"ProjectTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Project Types",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"jiupupiop\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7148/api/ProjectTypes/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7148",
+					"path": [
+						"api",
+						"ProjectTypes",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Project Type",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7148/api/ProjectTypes/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7148",
+					"path": [
+						"api",
+						"ProjectTypes",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
